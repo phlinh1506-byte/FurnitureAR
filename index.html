@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>STAR HOME</title>
+<script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 
 <style>
 body{
@@ -89,9 +90,15 @@ Khung gỗ sồi tự nhiên.<br>
 Bảo hành 5 năm.
 </p>
 
-<button>
-📱 XEM THỬ BẰNG AR
-</button>
+<model-viewer
+    src="chair.glb"
+    alt="Ghế Sofa Nordic Premium"
+    ar
+    ar-modes="webxr scene-viewer quick-look"
+    camera-controls
+    auto-rotate
+    style="width:100%; height:450px; background:#f5f5f5; border-radius:12px;">
+</model-viewer>
 
 </div>
 
